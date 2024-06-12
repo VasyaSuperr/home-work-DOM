@@ -1,0 +1,33 @@
+.userCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.userPhoto {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.fullName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.birthday,
+.nickname,
+.likesCount {
+  font-size: 16px;
+}
+
+.heart {
+  font-size: 24px;
+  color: gray;
+  cursor: pointer;
+}
+
+.heart.liked {
+  color: red;
+}
